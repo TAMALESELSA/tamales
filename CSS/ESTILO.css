@@ -1,0 +1,237 @@
+ body{
+background-image:url("../CSS/imagenes/portada.JPG");
+
+font-family:"Garamond","Italized text","Courier new";
+color:#FDFEFE;
+font-size:20px;
+
+}
+hr {
+border:3px solid #FDFEFE;
+width:80%;
+border-radius:5px;
+}
+p{
+text-align:CENTER;
+font-size:20;
+color:#FDFEFE;
+line-height:1.5;
+letter-spacing:2px;
+color:#FDFEFE;
+}
+table,tr,td{
+border:1px solid #D98880;
+border-spacing:0px;
+background-color:#7FB3D5;
+font-size:20px;
+text-align:center;
+color:#CD6155;
+}
+/*clases*/
+.pie{
+text-align:center;
+font-size:15px;
+color:#F5B7B1;
+font-weight:bold;
+}
+.encabezado{
+text-align:center;
+font-size:35px;
+font-weight:bold;
+font:Italized text;
+color:#982E39;
+}
+/*Divs*/
+div#top{
+width:100%;
+height:75px;
+background-image:radial-gradient(#FAD7A0,#DC7633);
+}
+div#piedepagina{
+width:100%;
+height:40px;
+background-image:radial-gradient(#FAD7A0,#DC7633);
+}
+/*carrusel de imagenes*/
+.carrousel{
+width:600px;
+margin:auto;
+box-sizing:border-box
+}
+.contecarrousel{
+width:100%;
+height:400px;
+overflow:hidden;
+box-sizing:border-box;
+}
+.itemcarrouseltarjeta{
+width:100%;
+height:100%;
+box-sizing:border-box;
+}
+.itemcarrousel{
+position:relative;
+width:100%;
+height:100%;
+box-sizing:border-box;
+}
+.itemcarrouselarrows{
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+height:100%;
+width:100%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:20px;
+box-sizing:border-box;
+}
+.itemcarrouselarrows > i:hover{
+cursor:poiter;
+}
+.contecarrouselcontroller{
+width:100%;
+display:flex;
+justify-content:space-evenly;
+}
+.contecarrouselcontroller > a{
+text-decoration:none;
+font-size:32px;
+color:grey;
+}
+.itemcarrouselarrows > a > i{
+color:white;
+}
+/*cajas para productos*/
+.caja{
+height:300px;
+width:250px;
+background:#FFFFFF;
+border:1px solid #FFFFFF;
+margin:5px;
+text-align:center;
+display:inline-block;
+}
+.caja:hover{
+box-shadow:0 0 10px red;
+transform:scale(1.3);
+}
+.caja-texto{
+padding-top:5px;
+padding-bottom:5px;
+font-size:20px;
+color:#17202A;
+font-weight:bold;
+}
+.texto-adicional{
+padding-top:5px;
+font-size:15px;
+color:#17202A;
+}
+/*Cajas para productos*/
+.caja{
+height:300px;
+width:250;
+background:#eee;
+border:1px solid #eee;
+margin:5px;
+text-align:center;
+display:inline-block;
+}
+.caja:hover{
+box-shadow: 0 0 10px #34495E;
+transform:scale(1.3);
+}
+.caja-texto{
+padding-top:5px;
+padding-bottom:5px;
+font-size:20px;
+color:black;
+font-weight:bold;
+}
+.text-adicional{
+padding-top:5px;
+font-size:15px;
+}
+.cajas{
+
+width:600px;
+background:#eee;
+border:1px solid #eee;
+margin:5px;
+text-align:center;
+display:inline-block;
+font-size:18px;
+}
+/*Menu de navegacion*/
+.navegacion{
+display:flex;
+height:100px;
+}
+.navegacion-item{
+flex:1;
+color:#fff;
+font-weight:bold;
+font-size:25px;
+display:flex;
+transition: flex-grow 0.2s;
+justify-content:center;
+align-items:center;
+}
+.navegacion-item:hover{
+flex-grow:10;
+}
+.navegacion-titulo{
+margin:0;
+transform:rotate(-90deg);
+transition:transform 0.2s 0.2s;
+font-size:15px;
+color:white;
+}
+.navegacion-item:hover .navegacion-titulo{
+transform:rotate(0);
+}
+.navegacion-item:nth-child(1){
+background:#f5cba7;
+}
+.navegacion-item:nth-child(2){
+background:#f0b27a;
+}
+.navegacion-item:nth-child(3){
+background:#eb984e;
+}
+.navegacion-item:nth-child(4){
+background:#e67e22;
+}
+.conts{
+    width:500px;
+    height:300px;
+    background:#1C2833 
+	border:1px solid #FDFEFE
+	margin:5px
+	display:flex;
+	align-items:center;
+	text-align:center;
+	justify-content:center;
+}
+/*tipografias o fuentes*/
+@font-face{
+	font-family:fuente-Backso;
+	src:url(../FUENTES/);
+}
+@font-face{
+	font-family:fuente-Game Bubble;
+	src:url(../FUENTES/);
+}
+@font-face{
+	font-family:fuente-Starborn;
+	src:url(../FUENTES/);
+}
+
+
+
+
+
